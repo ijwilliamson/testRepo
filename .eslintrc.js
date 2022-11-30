@@ -20,5 +20,8 @@ module.exports = {
       version: 'latest',
     },
   },
-  'rules': {},
+  'rules': {
+    "require-jsdoc": "off",
+    "react/react-in-jsx-scope": "off"
+  },
 };
